@@ -18,12 +18,6 @@ public class SendMessagePage extends BasePage {
 
     @FindBy(xpath = "//input[@class='agP aFw']")
     private WebElement enterYourEmail;
-
-    //div[contains(@aria-label,'Строка поиска')]
-    //input.agP.aFw
-   // div.aH9
-    //input[@id=':g3']
-//input[@class='agP aFw']
     
     @FindBy(xpath = "//div[@class='Am Al editable LW-avf tS-tW']")
     private WebElement textField;
